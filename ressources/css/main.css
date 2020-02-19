@@ -732,6 +732,10 @@ button{
     height: 3rem;
     width: 3rem;
 }
+
+.navbar .form-inline .form-control{
+    width: 23rem;
+}
     
 .BuyCount{
     position: absolute;
@@ -803,5 +807,10 @@ button{
     .navbar{
         z-index: 999999;
         background: black;
+    }
+
+    .navbar .form-inline,
+    .navbar .inscription{
+        margin-left: 0!important;
     }
 }
